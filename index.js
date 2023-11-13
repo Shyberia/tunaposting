@@ -60,7 +60,7 @@ client.on(Events.InteractionCreate, async interaction => {
 
 client.on(Events.ClientReady, async() => {
 
-const channel = await client.channels.fetch('1172693000472760470');
+const channel = await client.channels.fetch('1173449042836070523');
 
 function exectuna() {
     channel.send({
@@ -76,8 +76,6 @@ function exectuna() {
     setTimeout(exectuna, 3599999);
 }
 exectuna();
-
-//console.log(channel)
 })
 
 
